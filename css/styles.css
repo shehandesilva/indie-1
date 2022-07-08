@@ -1,6 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500;600;700&display=swap");
 body {
-  margin: 1.5em 4em;
+  margin: 1.5em 14em;
+  font-family: "Montserrat";
+  color: #1C2321;
+}
+
+p {
+  font-size: 1.3em;
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #0152A6;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -15,7 +32,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header img {
+  width: 11em;
+}
 
+.top-nav {
+  margin-bottom: 2em;
+}
 .top-nav ul {
   font-family: "Montserrat";
   font-weight: 400;
@@ -33,12 +56,28 @@ header {
 .top-nav ul li:last-child {
   padding: 0.5em 1em;
   background-color: #0152A6;
+  border: 3px solid transparent;
   border-radius: 1000em;
   font-weight: 500;
   font-size: 1.3rem;
+  color: white;
 }
 .top-nav ul li:last-child a {
   color: white;
+}
+.top-nav ul li:last-child:hover {
+  padding: 0.5em 1em;
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: #0152A6;
+  border-radius: 1000em;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #0152A6;
+}
+.top-nav ul li:last-child:hover a {
+  color: #0152A6;
 }
 
 .bottom-nav {
@@ -68,5 +107,49 @@ header {
   text-decoration-thickness: 0.2rem;
 }
 .bottom-nav ul li:first-child a {
+  color: #0152A6;
+}
+
+section .hero-banner {
+  position: absolute;
+  left: 16em;
+  top: 13em;
+  float: right;
+  height: 75vh;
+  z-index: -1;
+}
+section .herotitle {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+}
+section .heropara {
+  width: 30em;
+  color: #7D98A1;
+  margin-bottom: 3.5em;
+}
+section .herobtn {
+  padding: 0.5em 1em;
+  background-color: #0152A6;
+  border: 3px solid transparent;
+  border-radius: 1000em;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: white;
+}
+section .herobtn a {
+  color: white;
+}
+section .herobtn:hover {
+  padding: 0.5em 1em;
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: #0152A6;
+  border-radius: 1000em;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #0152A6;
+}
+section .herobtn:hover a {
   color: #0152A6;
 }/*# sourceMappingURL=styles.css.map */
