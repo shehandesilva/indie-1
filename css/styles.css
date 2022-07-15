@@ -20,6 +20,14 @@ h1 {
   padding: 0;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1C2321;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -152,4 +160,18 @@ section .herobtn:hover {
 }
 section .herobtn:hover a {
   color: #0152A6;
+}
+
+section.history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+section.history img {
+  width: 620px;
+}
+section.history .historyinfo {
+  margin-left: 5em;
+  width: 700px;
 }/*# sourceMappingURL=styles.css.map */
